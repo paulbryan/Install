@@ -31,7 +31,7 @@ if [ -e "$file" ]; then rm -rf /opt/pgstage; fi
 
 rm -rf /opt/pgstage/place.holder 1>/dev/null 2>&1
 
-git clone -b v8.6 --single-branch https://github.com/PGBlitz/Install.git /opt/pgstage
+git clone -b v8.6 --single-branch https://github.com/paulbryan/Install.git /opt/pgstage
 
 mkdir -p /opt/var/logs
 echo "" > /opt/var/server.ports
